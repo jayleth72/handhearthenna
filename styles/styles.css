@@ -102,27 +102,15 @@ html {
     .logo {
         display: flex;
         align-items: center;
-        /* Align the logo and text vertically */
+            /* Align the logo and text vertically */
     }
     
     .logo img {
-        height: 30px;
-        /* Adjust the height as needed */
-        margin-right: 10px;
-        /* Add some spacing between the logo and text */
-}
-
-section {
-    padding: 20px;
-    margin-top: 10px;
-}
-
-section#gallery img {
-    width: 100%;
-    /* Responsive images */
-    max-width: 400px;
-    height: auto;
-}
+        height: 90px;
+            /* Adjust the height as needed */
+            margin-right: 10px;
+            /* Add some spacing between the logo and text */
+        }
 
 footer {
     background-color: #333;
