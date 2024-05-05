@@ -15,7 +15,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: #759FBD;
     color: #fff;
     padding: 0.5rem 1rem;
 }
@@ -85,7 +85,7 @@ html {
             left: 0;
             top: 60px;
             flex-direction: column;
-            background-color: #333;
+            background-color: #759FBD;
             width: 100%;
         }
     
@@ -167,6 +167,7 @@ footer {
     margin: 20px;
     padding: 10px;
     border-radius: 8px;
+    
 }
 
 .services article {
