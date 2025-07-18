@@ -80,6 +80,14 @@ html {
     @media (max-width: 768px) {
         .nav-menu {
             display: none;
+            
+                @media (max-width: 800px) {
+                    .profile-img {
+                        float: none;
+                        display: block;
+                        margin: 10px auto;
+                    }
+                }
             position: absolute;
             right: 0;
             left: 0;
@@ -153,7 +161,7 @@ footer {
     text-align: justify;
 }
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
     .profile-img {
         float: none;
         display: block;
@@ -161,6 +169,7 @@ footer {
     }
 }
 
+*/
 .services article,
 .gallery img,
 .contact {
