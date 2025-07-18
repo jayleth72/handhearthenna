@@ -7,3 +7,10 @@ navToggle.addEventListener('click', function() {
     // Toggling the 'nav-menu_visible' class to show/hide the navigation menu
     navMenu.classList.toggle('nav-menu_visible');
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.body.classList.add('fade-in');
+    setTimeout(() => {
+        document.body.classList.add('visible');
+    }, 10);
+});
